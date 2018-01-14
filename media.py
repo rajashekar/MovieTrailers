@@ -1,7 +1,8 @@
+"""Media module - holds Movie class """
 import webbrowser
 
-class Movie():
-    """ Class to hold movies data and methods """
+class Movie(object):
+    """Holds movie properties and methods """
     # Constructor, initializes instance variables
     def __init__(self, movie_title, movie_storyline, movie_poster, movie_trailer):
         self.title = movie_title
@@ -9,6 +10,6 @@ class Movie():
         self.poster_image_url = movie_poster
         self.trailer_youtube_url = movie_trailer
 
-    # Opens up trailer
     def show_trailer(self):
+        """ Opens up trailer"""
         webbrowser.open(self.trailer_youtube_url)
