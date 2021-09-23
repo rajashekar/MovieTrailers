@@ -1,4 +1,5 @@
 # Movies trailer project
+Python app to display movie trailers
 
 ## Getting Started
 * Install python (Compiled and tested with 2.7.10)
